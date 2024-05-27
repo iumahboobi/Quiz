@@ -39,6 +39,7 @@ const questions: Question[] = [
 export const QuizContainer = styled.div`
     max-width: 600px;
     margin: 0 auto;
+    padding: 12px;
 `;
 
 const StyledSlider = styled(Slider)`
@@ -60,7 +61,6 @@ const QuestionSlide = styled.div`
 const QuestionSlideContainer = styled.div`
 
 border: solid 2px #12545354 ;
-padding: 4px;
 `
 
 const FlexContainer = styled.div`
