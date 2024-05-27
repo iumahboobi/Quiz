@@ -96,9 +96,9 @@ const Pages = styled.p `
 text-align: center;
 `
 
-const Answer = styled.p<{ isCorrect: boolean }>`
+/**const Answer = styled.p<{ isCorrect: boolean }>`
     color: ${props => props.isCorrect ? 'green' : 'red'};
-`;
+`; */
 
 export const Quiz: React.FC = () => {
 
